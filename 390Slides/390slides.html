@@ -6,11 +6,11 @@
 <script src="390slides_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="390slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="390slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="390slides_files/libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="390slides_files/libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.26">
 
   <meta name="author" content="Rubee Kung, Nicole Hua, Jacob Grima, Eda Kubra Ozkaya">
-  <meta name="dcterms.date" content="2026-03-27">
+  <meta name="dcterms.date" content="2026-03-30">
   <title>Eriksen Flanker Experiment</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -30,7 +30,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="390slides_files/libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="390slides_files/libs/revealjs/dist/theme/quarto-06e768f098560084c2d7120de8ad04fb.css">
   <link href="390slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="390slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="390slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -123,7 +123,7 @@
     }
   </style>
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
@@ -138,32 +138,81 @@ Rubee Kung, Nicole Hua, Jacob Grima, Eda Kubra Ozkaya
 </div>
 </div>
 
-  <p class="date">2026-03-27</p>
+  <p class="date">2026-03-30</p>
 </section>
 <section id="introduction" class="slide level2">
-<h2>Introduction</h2>
+<h2>## Introduction</h2>
+</section>
+<section id="history-background" class="slide level2">
+<h2>History &amp; Background</h2>
 <ul>
-<li>First bullet point</li>
-<li>Second bullet point</li>
+<li class="fragment">First bullet point</li>
+<li class="fragment">Second bullet point</li>
 </ul>
 </section>
 <section id="methods" class="slide level2">
 <h2>Methods</h2>
 <ul>
-<li>First bullet point</li>
-<li>Second bullet point</li>
+<li class="fragment">Design
+<ul>
+<li class="fragment">Within-subject design</li>
+</ul></li>
+<li class="fragment">Conditions:
+<ul>
+<li class="fragment">Congruent vs.&nbsp;Incongruent</li>
+<li class="fragment">Left vs.&nbsp;Right</li>
+</ul></li>
+<li class="fragment">Participants
+<ul>
+<li class="fragment">N = 16</li>
+<li class="fragment">Recruited from classmates</li>
+</ul></li>
+<li class="fragment">Measures
+<ul>
+<li class="fragment">Reaction time (ms)</li>
+<li class="fragment">Accuracy (%)</li>
+</ul></li>
+</ul>
+</section>
+<section id="procedure-task" class="slide level2">
+<h2>Procedure &amp; Task</h2>
+<ul>
+<li class="fragment">Procedure
+<ul>
+<li class="fragment">4 practice trials (with feedback)</li>
+<li class="fragment">20 experimental trials (no feedback)</li>
+<li class="fragment">Trials randomly generated</li>
+</ul></li>
+<li class="fragment">Stimuli &amp; Response
+<ul>
+<li class="fragment">Arrow strings (e.g., &lt;&lt;&lt;&lt;&lt;, &gt;&gt;&lt;&gt;&gt;)</li>
+<li class="fragment">Respond to the center arrow only</li>
+</ul></li>
+<li class="fragment">Trial Structure
+<ul>
+<li class="fragment">Fixation (500 ms)</li>
+<li class="fragment">Stimulus (max 2000 ms)</li>
+<li class="fragment">Inter-trial interval (700 ms)</li>
+</ul></li>
+<li class="fragment">Implementation
+<ul>
+<li class="fragment">Implemented in Python using pygame</li>
+<li class="fragment">Automatically recorded RT and accuracy</li>
+</ul></li>
 </ul>
 </section>
 <section id="results" class="slide level2">
 <h2>Results</h2>
 <ul>
-<li>For our Flanker task, we ran a repeated measures ANOVA
+<li class="fragment">For our Flanker task, we ran a repeated measures ANOVA
 <ul>
-<li>Independent variable: congruency</li>
-<li>Dependent variable: response time</li>
+<li class="fragment">Independent variable: congruency</li>
+<li class="fragment">Dependent variable: response time</li>
 </ul></li>
-<li>Removed inaccurate trials</li>
-<li>Our ANOVA gave us F(1,15) = 56.70, p&lt;.001</li>
+<li class="fragment">Removed inaccurate trials</li>
+<li class="fragment">Our ANOVA results were F(1,15) = 56.70, p&lt;.001</li>
+<li class="fragment">Mean reaction time of congruent trials = 477.41 ms</li>
+<li class="fragment">Mean reaction time of incongruent trials = 571.28 ms</li>
 </ul>
 </section>
 <section id="anova-figure" class="slide level2">
@@ -177,17 +226,17 @@ Rubee Kung, Nicole Hua, Jacob Grima, Eda Kubra Ozkaya
 <section id="discussion" class="slide level2">
 <h2>Discussion</h2>
 <ul>
-<li>The results show that there are differences in response time depending on the congruency of the trials</li>
-<li>Incongruent trials has longer reaction times than congruent trials</li>
-<li>We reject the null hypothesis</li>
+<li class="fragment">The results show that there are differences in response time depending on the congruency of the trials</li>
+<li class="fragment">Incongruent trials has longer reaction times than congruent trials</li>
+<li class="fragment">We reject the null hypothesis</li>
 </ul>
 </section>
 <section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
 <ul>
-<li>Our findings align with typical Erikson Flanker Task studies</li>
-<li>Arrow congruency significantly affects response time, supporting the flanker interference effect</li>
-<li>Future research could explore individual differences in cognitive control between different demographics</li>
+<li class="fragment">Our findings align with typical Erikson Flanker Task studies</li>
+<li class="fragment">Arrow congruency significantly affects response time, supporting the flanker interference effect</li>
+<li class="fragment">Future research could explore individual differences in cognitive control between different demographics</li>
 </ul>
 
 </section>
@@ -247,7 +296,7 @@ Rubee Kung, Nicole Hua, Jacob Grima, Eda Kubra Ozkaya
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -352,7 +401,7 @@ Rubee Kung, Nicole Hua, Jacob Grima, Eda Kubra Ozkaya
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',

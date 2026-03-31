@@ -11,9 +11,7 @@ format:
 ---
 
 ## Introduction
-
-- First bullet point
-- Second bullet point
+- 
 
 ## History & Background
 - First bullet point
@@ -53,17 +51,20 @@ format:
     - Independent variable: congruency 
     - Dependent variable: response time 
 - Removed inaccurate trials
-- Our ANOVA gave us F(1,15) = 56.70, p<.001
+- Our ANOVA results were F(1,15) = 56.70, p<.001
+- Mean reaction time of congruent trials = 477.41 ms 
+- Mean reaction time of incongruent trials = 571.28 ms
 
 ## ANOVA Figure 
 ![](ANOVAfigure.png)
+
 
 ## Graph Figure 
 ![](slidesfigure.png)
 
 ## Discussion
 - The results show that there are differences in response time depending on the congruency of the trials 
-- Incongruent trials has longer reaction times than congruent trials 
+- Incongruent trials had longer reaction times than congruent trials 
 - We reject the null hypothesis 
 
 ## Conclusion
