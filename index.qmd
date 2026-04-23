@@ -1,0 +1,11 @@
+---
+title: "Psych 390 Group Project"
+format: html
+---
+
+## Project Repository
+
+You can access the full project at the following GitHub repository:
+
+[GitHub Repository](https://github.com/rubeek0528-sketch/390finalproject.git)
+
